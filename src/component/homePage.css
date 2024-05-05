@@ -1,0 +1,85 @@
+.header-home-page {
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.home-page-body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.subHeading-body-home {
+  background-color: rgb(217, 254, 211);
+  width: fit-content;
+  min-width: 300px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+}
+
+.subHeading-body-home > span {
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.section-filter {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.section-filter > li {
+  list-style: none;
+  width: fit-content;
+  border-bottom: 1px solid #1876d1;
+  padding: 0 6px 6px;
+}
+
+.section-filter li:nth-child(2) {
+  position: relative;
+}
+
+.jobs-count {
+  background-color: #1876d1;
+  color: white;
+  position: absolute;
+  top: -15px;
+  right: -36px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.filters-section-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selection-filters {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.job-card-section-home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 3rem 0;
+}
