@@ -106,3 +106,7 @@
 .experience-section span:nth-child(1) {
   color: grey;
 }
+.ht25rem{
+  height: 2.5rem;
+  border-radius: 5px;
+}

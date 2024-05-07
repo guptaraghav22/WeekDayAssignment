@@ -70,6 +70,7 @@
   align-items: center;
 }
 
+
 .selection-filters {
   display: flex;
   width: 70%;
@@ -83,3 +84,13 @@
   justify-content: center;
   margin: 3rem 0;
 }
+.home-page-main-holder {
+  width: 80%;
+  margin-left: 20%;
+}
+.sideBarClosed{
+  width:90%;
+  margin-left: 4%;
+  
+}
+
